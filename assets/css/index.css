@@ -1,0 +1,37 @@
+html,body {
+    background-image: url("/assets/img/undergroundBG.webp");
+    backdrop-filter: blur(10px);
+    
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .cDiv {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    height: 100vh; /* sets container to full viewport height */
+  }
+  
+  form {
+    position: relative; /* allows absolute positioning */
+    width: 50%; /* adjust as needed */
+    height: 50%; /* adjust as needed */
+    top: 50%; /* moves form up by 50% of its height */
+    transform: translate(-50%, -50%); /* centers form */
+  }
+  
