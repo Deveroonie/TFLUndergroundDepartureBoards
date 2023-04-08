@@ -9,16 +9,21 @@ function getPlatFromLong(text) {
     return words
     }
     function doUpdate(num, r) {
-        const d = new Date(r[num].expectedArrival).toLocaleTimeString('en-GB', {timeZone: 'GMT'})
+        const dR = new Date(r[num].expectedArrival)
+        dR.setHours(dR.getHours() + 1)
+        const d = dR.toLocaleTimeString('en-GB', {timeZone: 'GMT'})
         document.getElementById(`eta${num + 1}`).innerText = d
         document.getElementById(`dest${num + 1}`).innerText = r[num].destinationName
         document.getElementById(`plat${num + 1}`).innerText = getPlatFromLong(r[num].platformName)
         document.getElementById(`line${num + 1}`).innerText = r[num].lineName
     }
     window.addEventListener("load", () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+        if(!id) {alert("ID Not found.")}
         console.log("gtf")
     
-        axios.get(`https://api.tfl.gov.uk/StopPoint/940GZZLUOXC/Arrivals?cacheBypass=${Math.random()*100000000}`).then(function(res) {
+        axios.get(`https://api.tfl.gov.uk/StopPoint/${id}/Arrivals?cacheBypass=${Math.random()*100000000}`).then(function(res) {
             console.log("gtf")
     
         const r = res.data
