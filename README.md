@@ -5,7 +5,7 @@ Departure boards for TFL underground stations
 
 [Live site](https://tflundergrounddepartures.deveroonie.xyz/)
 
-*ps it's deployed on netlify
+*ps it's deployed on netlify*
 
 ## Tests (homepage only):
 [GTMetrix](https://gtmetrix.com/) Desktop (Chrome) - Peformance: 100% Structure: 100% (A!)
