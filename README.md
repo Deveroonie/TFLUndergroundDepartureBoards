@@ -7,9 +7,9 @@ Departure boards for TFL underground stations
 
 *ps it's deployed on localhost*
 
-## Tests (homepage only) Performance: 
-[GTMetrix](https://gtmetrix.com/) Desktop (Chrome) - Peformance: 0% Structure: 0%
+## Tests (homepage only):
+[GTMetrix](https://gtmetrix.com/) Desktop (Chrome) - Peformance: 100% Structure: 100% (A!)
 
-[PageSpeed](https://pagespeed.web.dev) Mobile - 0%, Accessibility: 0%, Best Practises: 0%, SEO: 0%
+[PageSpeed](https://pagespeed.web.dev) Mobile - Performance: 98%, Accessibility: 100%, Best Practises: 100%, SEO: 91%
 
-[PageSpeed](https://pagespeed.web.dev) Desktop - Peformance: 0%, Accessibility: 0%, Best Practises: 0%, SEO: 0%
+[PageSpeed](https://pagespeed.web.dev) Desktop - Peformance: 100%, Accessibility: 100%, Best Practises: 100%, SEO: 89%
