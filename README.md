@@ -10,6 +10,6 @@ Departure boards for TFL underground stations
 ## Tests (homepage only):
 [GTMetrix](https://gtmetrix.com/) Desktop (Chrome) - Peformance: 100% Structure: 100% (A!)
 
-[PageSpeed](https://pagespeed.web.dev) Mobile - Performance: 98%, Accessibility: 100%, Best Practises: 100%, SEO: 91%
+[PageSpeed](https://pagespeed.web.dev) Mobile - Performance: 98%, Accessibility: 100%, Best Practises: 100%, SEO: 100%
 
-[PageSpeed](https://pagespeed.web.dev) Desktop - Peformance: 100%, Accessibility: 100%, Best Practises: 100%, SEO: 89%
+[PageSpeed](https://pagespeed.web.dev) Desktop - Peformance: 99%, Accessibility: 100%, Best Practises: 100%, SEO: 100%
