@@ -1,6 +1,6 @@
-.depBD {
-    background-color: black;
+html, body, .depBD {
     color: orange;
+    background-color: black;
 }
 table {
 font-family: Arial, Helvetica, sans-serif;
@@ -17,4 +17,8 @@ padding-top: 12px;
 padding-bottom: 12px;
 text-align: left;
 color: white;
+}
+
+body {
+    background-color: black;
 }
