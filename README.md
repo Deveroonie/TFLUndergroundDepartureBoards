@@ -3,7 +3,7 @@
 
 Departure boards for TFL underground stations
 
-[Live site](https://tflundergrounddepartures.deveroonie.xyz/)
+[Live site](https://tfldepartures.deveroonie.uk/)
 
 *ps it's deployed on netlify*
 
